@@ -1,5 +1,3 @@
-To collect tweets, run Tweepy_Retrieve_Tweets.py. 
-To analyze tweets, run Analyzing_Data_Set.py by adding the filename of the file to be analyzed. 
 
 Install all the packages required: 
 	tweepy/twitter
@@ -11,6 +9,20 @@ Files:
 	Authentication.py
 	Tweepy_Retrieve_Tweets.py
 	Analyzing_Data_Set.py
+
+Steps:
+
+To collect tweets, run Tweepy_Retrieve_Tweets.py. 
+To analyze tweets, run Analyzing_Data_Set.py by adding the filename of the file to be analyzed. 
+
+In both cases, set your consumer and authentication keys in the Authentication.txt file. Authentication.py reads the keys from this file to perform authentication and establish a connection. The data in the Authentication.txt file should be in the following format:
+
+consumer_key <enter__your_consumer_key_here>
+consumer_secret <enter_your_consumer_secret_here>
+access_token <enter_your_access_token_here>
+access_token_secret <enter_your_access_token_secret_here>
+
+For streaming, ensure that you pass the stream = True parameter to the Authentication.authentication function, because the default value will be False which is for hte Rest api.
 
 Algorithm and File Descriptions:
 
