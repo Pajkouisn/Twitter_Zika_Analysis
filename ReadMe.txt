@@ -22,7 +22,7 @@ consumer_secret <enter_your_consumer_secret_here>
 access_token <enter_your_access_token_here>
 access_token_secret <enter_your_access_token_secret_here>
 
-For streaming, ensure that you pass the stream = True parameter to the Authentication.authentication function, because the default value will be False which is for hte Rest api.
+For streaming, ensure that you pass the stream = True parameter to the Authentication.authentication() function, because the default value will be False which is for the Rest Api.
 
 Algorithm and File Descriptions:
 
